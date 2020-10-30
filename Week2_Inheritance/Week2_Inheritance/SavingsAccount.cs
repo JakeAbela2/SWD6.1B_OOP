@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Week2_Inheritance
 {
     //inheretance: that the class in question is inhereting/ getting all the public OR protected members of the base class.
-    class SavingsAccount : BankAccount 
+    class SavingsAccount : BankAccount
     {
-        public SavingsAccount(string iban, double balance, User owner, double interestRate) : base (iban, balance, owner)
+        public SavingsAccount(string iban, double balance, User owner, double interestRate) : base(iban, balance, owner)
         {
             InterestRate = interestRate;
         }
@@ -25,5 +25,6 @@ namespace Week2_Inheritance
         }
 
     }
+}
 
  
